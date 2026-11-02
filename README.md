@@ -52,7 +52,7 @@ All classes are in a single file for easy compilation.
 
  Class                    -> Purpose                                                        
  HotelReservationSystem -> Entry point, menu handling and user input                      
- Hotel                  -> Stores rooms and bookings, checks availability, cancels bookings 
+ Hotel                  -> Stores rooms and bookings, checks availability, cancels bookingsf 
  Room                   -> Room number, type and price per night                          
  Customer               -> Customer name, phone and email                                 
  Booking                -> A reservation with ID, dates, payment, amount and status       
