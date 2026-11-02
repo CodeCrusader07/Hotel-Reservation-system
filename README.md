@@ -49,11 +49,11 @@ All dates are entered and displayed as **DD/MM/YYYY**, for example `25/12/2026`.
 
 ## Rooms and Pricing
 
-Room Numbers | Type   | Price per Night 
-101, 102     | SINGLE | INR 1500.00 
-103, 104     | DOUBLE | INR 2500.00     
-201, 202     | DELUXE | INR 4000.00     
-301          | SUITE  | INR 6500.00     
+Room Numbers - Type   - Price per Night 
+101, 102     - SINGLE - INR 1500.00 
+103, 104     - DOUBLE - INR 2500.00     
+201, 202     - DELUXE - INR 4000.00     
+301          - SUITE  - INR 6500.00     
 
 ## How to Make a Reservation
 
@@ -84,18 +84,18 @@ Room No.     Type         Price/Night
 
 All classes are in a single file for easy compilation.
 
- Class                    | Purpose                                                        
- `HotelReservationSystem` | Entry point, menu handling and user input                      
- `Hotel`                  | Stores rooms and bookings, checks availability, cancels bookings 
- `Room`                   | Room number, type and price per night                          
- `Customer`               | Customer name, phone and email                                 
- `Booking`                | A reservation with ID, dates, payment, amount and status       
- `Payment`                | Abstract base class for payment methods                        
- `CardPayment`            | Simulated card payment (stores only the last 4 digits)         
- `CashPayment`            | Pay-at-hotel option                                            
- `DateUtil`               | DD/MM/YYYY date formatting and parsing                         
- `RoomType`               | Enum: `SINGLE`, `DOUBLE`, `DELUXE`, `SUITE`                    
- `BookingStatus`          | Enum: `CONFIRMED`, `CANCELLED`                                 
+ Class                    -> Purpose                                                        
+ `HotelReservationSystem` -> Entry point, menu handling and user input                      
+ `Hotel`                  -> Stores rooms and bookings, checks availability, cancels bookings 
+ `Room`                   -> Room number, type and price per night                          
+ `Customer`               -> Customer name, phone and email                                 
+ `Booking`                -> A reservation with ID, dates, payment, amount and status       
+ `Payment`                -> Abstract base class for payment methods                        
+ `CardPayment`            -> Simulated card payment (stores only the last 4 digits)         
+ `CashPayment`            -> Pay-at-hotel option                                            
+ `DateUtil`               -> DD/MM/YYYY date formatting and parsing                         
+ `RoomType`               -> Enum: `SINGLE`, `DOUBLE`, `DELUXE`, `SUITE`                    
+ `BookingStatus`          -> Enum: `CONFIRMED`, `CANCELLED`                                 
 
 ## Notes and Limitations
 
