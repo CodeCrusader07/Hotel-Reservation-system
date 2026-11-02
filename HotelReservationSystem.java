@@ -79,7 +79,6 @@ public class HotelReservationSystem {
             System.out.println("Sorry, no rooms of this type are available for those dates.");
             return;
         }
-
         System.out.println("\nAvailable rooms:");
         displayRooms(available);
         int roomNumber = readInt("Enter the room number you want to book: ", 1, 9999);
