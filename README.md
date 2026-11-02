@@ -50,6 +50,7 @@ All dates are entered and displayed as **DD/MM/YYYY**, for example `25/12/2026`.
 ## Rooms and Pricing
 
 Room Numbers - Type   - Price per Night 
+
 101, 102     - SINGLE - INR 1500.00 
 103, 104     - DOUBLE - INR 2500.00     
 201, 202     - DELUXE - INR 4000.00     
