@@ -99,7 +99,7 @@ public class HotelReservationSystem {
 
         long nights = dates[1].toEpochDay() - dates[0].toEpochDay();
         BigDecimal total = room.getPricePerNight().multiply(BigDecimal.valueOf(nights));
-        System.out.println("\n--- BOOKING SUMMARY ---");
+        System.out.println("\nBOOKING SUMMARY");
         System.out.println("Room: " + room.getRoomNumber() + " (" + room.getType() + ")");
         System.out.println("Stay: " + DateUtil.format(dates[0]) + " to " + DateUtil.format(dates[1]) + " (" + nights + " nights)");
         System.out.println("Price per night: " + money(room.getPricePerNight()));
